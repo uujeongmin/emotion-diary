@@ -1,0 +1,36 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>감정 일기장</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <form>
+    <h2>오늘의 감정 일기</h2>
+    <label>날짜: 
+      <input type="date" />
+    </label>
+
+    <label>기분:
+      <select>
+        <option>선택</option>
+        <option>☺️행복</option>
+        <option>😐평범</option>
+        <option>🥹슬픔</option>
+        <option>😡화남</option>
+        <option>🥰설렘</option>
+        <option>😴피곤</option>
+      </select>
+    </label>
+
+    <label>일기 내용:
+      <textarea></textarea>    
+    </label>
+
+    <button type="button">저장하기</button>
+  </form>
+  <script src="main.js"></script>
+</body>
+</html>
