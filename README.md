@@ -14,13 +14,9 @@ HTML / CSS / JavaScript / React
 emotion-diary/
 
 │
-
 ├─ index.html # 메인 HTML 파일
-
 ├─ style.css # 스타일 파일
-
 ├─ main.js # JavaScript 기능
-
 └─ README.md # 프로젝트 소개 문서
 
 ## 실행 방법
